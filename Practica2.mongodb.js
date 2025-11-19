@@ -9,8 +9,7 @@ db.Artistas.insertMany([
   {nombre: "Leonardo da Vinci", obra: "La Mona Lisa" },
   {nombre: "Michelangelo Buonarroti", obra: "La creación de Adán" },
   {nombre: "Henri Matisse", obra: "La danza" },
-  {nombre: "Georgia O'Keeffe", obra: "Flores rojas" },
-  {nombre: "Jackson Pollock", obra: "No. 5, 1948" },
+  {nombre: "Georgia O'Keeffe", obra: "Flores rojas" }
   ]);
 
 db.Cantantes.insertMany([
@@ -23,8 +22,7 @@ db.Cantantes.insertMany([
   {nombre: "Harry", edad: 31, grupo: "One Direction" },
   {nombre: "Liam", edad: 32, grupo: "One Direction" },
   {nombre: "Jungkook", edad: 28, grupo: "BTS" },
-  {nombre: "Jimin", edad: 30, grupo: "BTS" },
-  {nombre: "Taehyung", edad: 30, grupo: "BTS" },
+  {nombre: "Jimin", edad: 30, grupo: "BTS" }
   ]);  
 
 db.Deportes.insertMany([
@@ -36,8 +34,7 @@ db.Deportes.insertMany([
   {nombre: "Fútbol Americano", tipo: 17, lugar: "Campo de fútbol americano" },
   {nombre: "Tenis", tipo: 17, lugar: "Cancha de tenis" },
   {nombre: "MMA", tipo: 17, lugar: "Octágono" },
-  {nombre: "Cricket", tipo: 17, lugar: "Campo de cricket" },
-  {nombre: "Golf", tipo: 17, lugar: "Campo de golf" }
+  {nombre: "Cricket", tipo: 17, lugar: "Campo de cricket" }
 ]); 
 
 db.Musica.insertMany([
@@ -49,8 +46,7 @@ db.Musica.insertMany([
   {genero: "Electrónica", integrantes: 4},
   {genero: "R&B", integrantes: 4},
   {genero: "Indie", integrantes: 4},
-  {genero: "K-pop", integrantes: 4},
-  {genero: "Country", integrantes: 4}
+  {genero: "K-pop", integrantes: 4}
 ]);
 
 db.Obras.insertMany([
@@ -62,6 +58,5 @@ db.Obras.insertMany([
   {nombre: "El Cid", genero: "Épico", creador: "Anónimo"},
   {nombre: "Romeo y Julieta", genero: "Tragedia", creador: "William Shakespeare"},
   {nombre: "Un tranvía llamado Deseo", genero: "Drama", creador: "Tennessee Williams"},
-  {nombre: "Las aventuras de Tom Sawyer", genero: "Comedia", creador: "Mark Twain"},
-  {nombre: "La ópera de tres centavos", genero: "Teatro musical", creador: "Bertolt Brecht"}
+  {nombre: "Las aventuras de Tom Sawyer", genero: "Comedia", creador: "Mark Twain"}
 ]);
