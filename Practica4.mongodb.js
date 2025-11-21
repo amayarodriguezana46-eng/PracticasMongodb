@@ -1,4 +1,4 @@
- use("Colecciones");
+ use('Colecciones');
 
  db.Artistas.updateOne({nombre: "Frida Kahlo"}, {$set: {obra: "La columna rota"}});
  db.Artistas.updateOne({nombre: "Claude Monet"}, {$set: {obra: "Impresión, sol naciente"}});
