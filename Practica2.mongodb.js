@@ -6,7 +6,7 @@ db.Artistas.insertMany([
   {nombre: "Salvador Dalí", obra: "La persistencia de la memoria" },
   {nombre: "Claude Monet", obra: "Impresión, sol naciente" },
   {nombre: "Andy Warhol", obra: "Campbell's Soup Cans" },
-  {nombre: "Leonardo da Vinci", obra: "La Mona Lisa" },
+  {nombre: "Leonardo Da Vinci", obra: "La Mona Lisa" },
   {nombre: "Michelangelo Buonarroti", obra: "La creación de Adán" },
   {nombre: "Henri Matisse", obra: "La danza" },
   {nombre: "Georgia O'Keeffe", obra: "Flores rojas" }
