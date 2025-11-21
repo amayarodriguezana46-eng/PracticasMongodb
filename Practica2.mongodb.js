@@ -34,7 +34,8 @@ db.Deportes.insertMany([
   {nombre: "Fútbol Americano", tipo: 17, lugar: "Campo de fútbol americano" },
   {nombre: "Tenis", tipo: 17, lugar: "Cancha de tenis" },
   {nombre: "MMA", tipo: 17, lugar: "Octágono" },
-  {nombre: "Cricket", tipo: 17, lugar: "Campo de cricket" }
+  {nombre: "Cricket", tipo: 17, lugar: "Campo de cricket" },
+  {nombre: "Golf", tipo: 17, lugar: "Campo de golf"}
 ]); 
 
 db.Musica.insertMany([
@@ -46,7 +47,8 @@ db.Musica.insertMany([
   {genero: "Electrónica", integrantes: 4},
   {genero: "R&B", integrantes: 4},
   {genero: "Indie", integrantes: 4},
-  {genero: "K-pop", integrantes: 4}
+  {genero: "K-pop", integrantes: 4},
+  {genero: "Salsa", integrantes: 6}
 ]);
 
 db.Obras.insertMany([
@@ -58,5 +60,6 @@ db.Obras.insertMany([
   {nombre: "El Cid", genero: "Épico", creador: "Anónimo"},
   {nombre: "Romeo y Julieta", genero: "Tragedia", creador: "William Shakespeare"},
   {nombre: "Un tranvía llamado Deseo", genero: "Drama", creador: "Tennessee Williams"},
-  {nombre: "Las aventuras de Tom Sawyer", genero: "Comedia", creador: "Mark Twain"}
+  {nombre: "Las aventuras de Tom Sawyer", genero: "Comedia", creador: "Mark Twain"},
+  {nombre: "El Retrato de Dorian Gray", genero: "Filosófico", creador: "Oscar Wilde"}
 ]);
