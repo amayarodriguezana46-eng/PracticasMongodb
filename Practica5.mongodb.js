@@ -85,4 +85,26 @@
  db.Deportes.find({ nombre: {$gt:"Golf" }});
  db.Deportes.find({ tipo: { $gt: 17 }});
  db.Deportes.find({ lugar: "Campo de golf" });
+
+ db.Musica.find();
+ db.Musica.find({ genero: {$gt:"Pop" }});
+ db.Musica.find({ integrantes: {$gt: 5 }});
+ db.Musica.find({ genero: {$gt:"Rock" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"Jazz" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"Hip-Hop" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"Reguetón" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"Electrónica" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"R&B" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"Indie" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"K-pop" }});
+ db.Musica.find({ integrantes: {$gt: 4 }});
+ db.Musica.find({ genero: {$gt:"Salsa" }});
+ db.Musica.find({ integrantes: {$gt: 6 }});
  
