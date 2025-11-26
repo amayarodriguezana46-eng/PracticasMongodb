@@ -21,4 +21,36 @@
  db.Artistas.find({ obra: {$gt:"La danza" }});
  db.Artistas.find({ nombre: {$gt:"Georgia O'Keeffe" }});
  db.Artistas.find({ obra: {$gt:"Flores rojas" }});
- 
+
+ db.Cantantes.find();
+
+ db.Cantantes.find({ nombre: {$gt:"Diego" }});
+ db.Cantantes.find({ edad: { $gt: 17 }});
+ db.Cantantes.find({ grupo: "Wiplash" });
+ db.Cantantes.find({ nombre: { $gt: "Jota" }}); 
+ db.Cantantes.find({ edad: { $gt: 22 }});
+ db.Cantantes.find({ grupo: "Wiplash" });
+ db.Cantantes.find({ nombre: { $gt: "Dann" }}); 
+ db.Cantantes.find({ edad: { $gt: 21 }});
+ db.Cantantes.find({ grupo: "Wiplash" });
+ db.Cantantes.find({ nombre: { $gt: "Smoke" }}); 
+ db.Cantantes.find({ edad: { $gt: 22 }});
+ db.Cantantes.find({ grupo: "Wiplash" });
+ db.Cantantes.find({ nombre: { $gt: "Jorge" }}); 
+ db.Cantantes.find({ edad: { $gt: 19 }});
+ db.Cantantes.find({ grupo: "Solista" });
+ db.Cantantes.find({ nombre: { $gt: "German" }}); 
+ db.Cantantes.find({ edad: { $gt: 22 }});
+ db.Cantantes.find({ grupo: "DAAZ" });
+ db.Cantantes.find({ nombre: { $gt: "Harry" }}); 
+ db.Cantantes.find({ edad: { $gt: 31 }});
+ db.Cantantes.find({ grupo: "One Direction" });
+ db.Cantantes.find({ nombre: { $gt: "Liam" }}); 
+ db.Cantantes.find({ edad: { $gt: 32 }});
+ db.Cantantes.find({ grupo: "One Direction" });
+ db.Cantantes.find({ nombre: { $gt: "Jungkook" }}); 
+ db.Cantantes.find({ edad: { $gt: 28 }});
+ db.Cantantes.find({ grupo: "BTS" });
+ db.Cantantes.find({ nombre: { $gt: "Jimin" }}); 
+ db.Cantantes.find({ edad: { $gt: 30 }});
+ db.Cantantes.find({ grupo: "BTS" });
