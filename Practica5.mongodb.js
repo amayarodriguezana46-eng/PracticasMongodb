@@ -107,4 +107,35 @@
  db.Musica.find({ integrantes: {$gt: 4 }});
  db.Musica.find({ genero: {$gt:"Salsa" }});
  db.Musica.find({ integrantes: {$gt: 6 }});
- 
+
+ db.Obras.find();
+ db.Obras.find({ nombre: {$gt:"Hamlet" }});
+ db.Obras.find({ genero: { $gt: "Tragedia" }});
+ db.Obras.find({ creador: "William Shakespeare" });
+ db.Obras.find({ nombre: { $gt: "La Casa de Bernarda Alba" }}); 
+ db.Obras.find({ genero: { $gt: "Drama" }});
+ db.Obras.find({ creador: "Federico García Lorca" });
+ db.Obras.find({ nombre: { $gt: "Don Juan Tenorio" }}); 
+ db.Obras.find({ genero: { $gt: "Comedia" }});
+ db.Obras.find({ creador: "Tirso de Molina" });
+ db.Obras.find({ nombre: { $gt: "Macbeth" }}); 
+ db.Obras.find({ genero: { $gt: "Tragedia" }});
+ db.Obras.find({ creador: "William Shakespeare" });
+ db.Obras.find({ nombre: { $gt: "Esperando a Godot" }}); 
+ db.Obras.find({ genero: { $gt: "Absurdo" }});
+ db.Obras.find({ creador: "Samuel Beckett" });
+ db.Obras.find({ nombre: { $gt: "El Cid" }}); 
+ db.Obras.find({ genero: { $gt: "Épico" }});
+ db.Obras.find({ creador: "Anónimo" });
+ db.Obras.find({ nombre: { $gt: "Romeo y Julieta" }}); 
+ db.Obras.find({ genero: { $gt: "Tragedia" }});
+ db.Obras.find({ creador: "William Shakespeare" });
+ db.Obras.find({ nombre: { $gt: "Un tranvía llamado Deseo" }}); 
+ db.Obras.find({ genero: { $gt: "Drama" }});
+ db.Obras.find({ creador: "Tennessee Williams" });
+ db.Obras.find({ nombre: { $gt: "Las aventuras de Tom Sawyer" }}); 
+ db.Obras.find({ genero: { $gt: "Comedia" }});
+ db.Obras.find({ creador: "Mark Twain" });
+ db.Obras.find({ nombre: { $gt: "El Retrato de Dorian Gray" }}); 
+ db.Obras.find({ genero: { $gt: "Filosófico" }});
+ db.Obras.find({ creador: "Oscar Wilde" });
