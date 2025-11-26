@@ -23,7 +23,6 @@
  db.Artistas.find({ obra: {$gt:"Flores rojas" }});
 
  db.Cantantes.find();
-
  db.Cantantes.find({ nombre: {$gt:"Diego" }});
  db.Cantantes.find({ edad: { $gt: 17 }});
  db.Cantantes.find({ grupo: "Wiplash" });
@@ -54,3 +53,35 @@
  db.Cantantes.find({ nombre: { $gt: "Jimin" }}); 
  db.Cantantes.find({ edad: { $gt: 30 }});
  db.Cantantes.find({ grupo: "BTS" });
+
+ db.Deportes.find();
+ db.Deportes.find({ nombre: {$gt:"Diego" }});
+ db.Deportes.find({ edad: { $gt: 17 }});
+ db.Deportes.find({ grupo: "Wiplash" });
+ db.Deportes.find({ nombre: { $gt: "Jota" }}); 
+ db.Deportes.find({ edad: { $gt: 22 }});
+ db.Deportes.find({ grupo: "Wiplash" });
+ db.Deportes.find({ nombre: { $gt: "Dann" }}); 
+ db.Deportes.find({ edad: { $gt: 21 }});
+ db.Deportes.find({ grupo: "Wiplash" });
+ db.Deportes.find({ nombre: { $gt: "Smoke" }}); 
+ db.Deportes.find({ edad: { $gt: 22 }});
+ db.Deportes.find({ grupo: "Wiplash" });
+ db.Deportes.find({ nombre: { $gt: "Jorge" }}); 
+ db.Deportes.find({ edad: { $gt: 19 }});
+ db.Deportes.find({ grupo: "Solista" });
+ db.Deportes.find({ nombre: { $gt: "German" }}); 
+ db.Deportes.find({ edad: { $gt: 22 }});
+ db.Deportes.find({ grupo: "DAAZ" });
+ db.Deportes.find({ nombre: { $gt: "Harry" }}); 
+ db.Deportes.find({ edad: { $gt: 31 }});
+ db.Deportes.find({ grupo: "One Direction" });
+ db.Deportes.find({ nombre: { $gt: "Liam" }}); 
+ db.Deportes.find({ edad: { $gt: 32 }});
+ db.Deportes.find({ grupo: "One Direction" });
+ db.Deportes.find({ nombre: { $gt: "Jungkook" }}); 
+ db.Deportes.find({ edad: { $gt: 28 }});
+ db.Deportes.find({ grupo: "BTS" });
+ db.Deportes.find({ nombre: { $gt: "Jimin" }}); 
+ db.Deportes.find({ edad: { $gt: 30 }});
+ db.Deportes.find({ grupo: "BTS" });
